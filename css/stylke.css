@@ -1,0 +1,90 @@
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container{
+    width: 260px;
+    position: relative;
+}
+
+.fecha{
+    display: flex;
+    width: 100%;
+}
+
+input{
+    width: 210px;
+    padding: 10px;
+    font-size: 16px;
+    border: solid 2px black;
+}
+
+button{
+    width: 45px;
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.calendario{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+.mes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.mes p{
+    font-size: 16px;
+}
+
+.mes button{
+    border: none;
+    width: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    padding: 8px 0;
+    background-color: rgb(8, 98, 98);
+}
+
+td{
+    padding: 10px 0;
+    border: solid 1px gray;
+}
+.dia:hover{
+    background-color: rgba(127, 255, 212, 0.562);
+}
+.flecha{
+    color: rgb(52, 60, 74);
+}
+
+.flecha:hover{
+    color: rgb(8, 98, 98);
+}
+
+.año{
+    color: rgb(8, 98, 98);
+}
